@@ -1,34 +1,56 @@
 [
   {
     "id": 1,
-    "name": "SpongeBob",
+    "name": "Pikachu",
     "image":
-      "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/Spongebob-squarepants.svg/666px-Spongebob-squarepants.svg.png",
-    "occupation": "Fry Cook",
-    "location": "A Pineapple Under the Sea"
+      "https://cdn.bulbagarden.net/upload/thumb/0/0d/025Pikachu.png/250px-025Pikachu.png"
   },
   {
     "id": 2,
-    "name": "Mr. Krabs",
+    "name": "Squirtle",
     "image":
-      "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131",
-    "occupation": "Restaurant Owner",
-    "location": "A Giant Anchor"
+      "https://seeklogo.com/images/S/squirtle-logo-0E4AE193EE-seeklogo.com.png"
   },
   {
     "id": 3,
-    "name": "Squidward",
+    "name": "Charmander",
     "image":
-      "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
-    "occupation": "Cashier",
-    "location": "An Easter Island Head"
+      "http://vignette1.wikia.nocookie.net/pokemon/images/9/96/004Charmander_OS_anime.png/revision/latest?cb=20140603214902"
   },
   {
     "id": 4,
-    "name": "Squidward",
+    "name": "Butterfree",
     "image":
-      "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
-    "occupation": "Cashier",
-    "location": "An Easter Island Head"
+      "https://vignette1.wikia.nocookie.net/pokemon/images/f/f2/012Butterfree_AG_anime.png/revision/latest?cb=20140702014008"
+  },
+  {
+    "id": 5,
+    "name": "Pidgeotto",
+    "image":
+      "https://vignette2.wikia.nocookie.net/project-pokemon/images/d/d9/600px-017Pidgeotto.png/revision/latest?cb=20170220214404"
+  },
+  {
+    "id": 6,
+    "name": "Bulbasaur",
+    "image":
+      "https://cdn.bulbagarden.net/upload/thumb/2/21/001Bulbasaur.png/250px-001Bulbasaur.png"
+  },
+  {
+    "id": 7,
+    "name": "Togepi",
+    "image":
+      "https://cdn.bulbagarden.net/upload/thumb/6/6b/175Togepi.png/250px-175Togepi.png"
+  },
+  {
+    "id": 8,
+    "name": "Geodude",
+    "image":
+      "https://cdn.bulbagarden.net/upload/thumb/9/98/074Geodude.png/250px-074Geodude.png"
+  },
+  {
+    "id": 9,
+    "name": "Jigglypuff",
+    "image":
+      "https://cdn.bulbagarden.net/upload/thumb/3/3e/039Jigglypuff.png/250px-039Jigglypuff.png"
   }
 ]

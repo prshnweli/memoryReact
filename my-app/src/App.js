@@ -1,47 +1,42 @@
-import React from "react";
+import React, { Component } from "react";
+import FriendCard from "./components/FriendCard";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
-import FriendCard from "./components/FriendCard";
 import friends from "./friends.json";
+import Navbar from "./components/navbar";
+import "./App.css";
 
-const App = () => (
-  <Wrapper>
-    <Title>Clicky Game!</Title>
 
-    <div>
-    <FriendCard
-      image={friends[0].image}
-    />
-    <FriendCard
-      image={friends[1].image}
-    />
-    <FriendCard
-      image={friends[2].image}
-    />
-    </div>
-    <div>
-    <FriendCard
-      image={friends[0].image}
-    />
-    <FriendCard
-      image={friends[1].image}
-    />
-    <FriendCard
-      image={friends[2].image}
-    />
-    </div>
-    <div>
-    <FriendCard
-      image={friends[0].image}
-    />
-    <FriendCard
-      image={friends[1].image}
-    />
-    <FriendCard
-      image={friends[2].image}
-    />
-    </div>
-  </Wrapper>
-);
+class App extends Component {
+  // Setting this.state.friends to the friends json array
+  state = {
+    friends
+  };
+
+  removeFriend = id => {
+    // Filter this.state.friends for friends with an id not equal to the id being removed
+    const friends = this.state.friends.filter(friend => friend.id !== id);
+    // Set this.state.friends equal to the new friends array
+    this.setState({ friends });
+  };
+
+  // Map over this.state.friends and render a FriendCard component for each friend object
+  render() {
+    return (
+      <Wrapper>
+        <Navbar />
+        <Title>Clicky Game</Title>
+        {this.state.friends.map(friend => (
+          <FriendCard
+            removeFriend={this.image}
+            id={friend.id}
+            image={friend.image}
+
+          />
+        ))}
+      </Wrapper>
+    );
+  }
+}
 
 export default App;
